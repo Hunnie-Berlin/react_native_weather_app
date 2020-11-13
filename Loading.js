@@ -6,7 +6,7 @@ const Loading = () => (
     <View style={styles.card}>
       <Text style={styles.text}>Loading{"\n"}the Weather</Text>
     </View>
-    <ActivityIndicator color="#4b6584" />
+    <ActivityIndicator />
   </View>
 );
 
@@ -17,7 +17,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     paddingHorizontal: 50,
     paddingVertical: 100,
-    backgroundColor: "#fed330e0",
+    backgroundColor: "#4b6584",
   },
   card: {
     flex: 0.4,
@@ -25,8 +25,8 @@ const styles = StyleSheet.create({
     alignItems: "center",
     aspectRatio: 1,
     paddingHorizontal: 20,
-    backgroundColor: "#ffffff",
-    shadowColor: "#4b6584",
+    backgroundColor: "#fed330dd",
+    shadowColor: "#ffffff99",
     shadowOffset: { width: 10, height: 10 },
     shadowRadius: 0,
     shadowOpacity: 1,
@@ -35,7 +35,7 @@ const styles = StyleSheet.create({
   },
   text: {
     textAlign: "center",
-    color: "#4b6584",
+    color: "#4b6584cc",
     fontSize: 30,
     fontWeight: "900",
     paddingVertical: 50,
