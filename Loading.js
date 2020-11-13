@@ -5,8 +5,8 @@ const Loading = () => (
   <View style={styles.container}>
     <View style={styles.card}>
       <Text style={styles.text}>Loading{"\n"}the Weather</Text>
+      <ActivityIndicator />
     </View>
-    <ActivityIndicator />
   </View>
 );
 
