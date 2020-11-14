@@ -35,7 +35,7 @@ const styles = StyleSheet.create({
   },
   text: {
     textAlign: "center",
-    color: "#4b6584cc",
+    color: "#45aaf2ee",
     fontSize: 30,
     fontWeight: "900",
     paddingVertical: 50,
