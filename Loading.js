@@ -1,8 +1,15 @@
 import React from "react";
-import { ActivityIndicator, StyleSheet, Text, View } from "react-native";
+import {
+  ActivityIndicator,
+  StyleSheet,
+  Text,
+  View,
+  StatusBar,
+} from "react-native";
 
 const Loading = () => (
   <View style={styles.container}>
+    <StatusBar barStyle="light-content" />
     <View style={styles.card}>
       <Text style={styles.text}>Loading{"\n"}the Weather</Text>
       <ActivityIndicator />
